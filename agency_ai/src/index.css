@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import "tailwindcss";
+
+/* cutome varian */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #1d4ed8;
+}
+
+/* global style */
+* {
+  font-family: "manrope", sans-serif;
+  font-weight: 500;
+  cursor: none;
+}
