@@ -36,3 +36,5 @@ from pns p, agama a
 where p.id_agama = a.id_agama;
 
 
+
+
